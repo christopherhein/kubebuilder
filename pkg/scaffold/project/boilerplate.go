@@ -38,6 +38,9 @@ type Boilerplate struct {
 
 	// Year is the copyright year
 	Year string
+
+	// Multigroup defines if the project has multigroups - e.g. apis/{}
+	Multigroup bool
 }
 
 // GetInput implements input.File
